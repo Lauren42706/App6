@@ -1,19 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App6.MainPage">
+             x:Class="App6.MainPage"
+             BackgroundColor="Bisque">
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+
+        <Label 
+            Grid.Column="0" Grid.Row="0"
+            Grid.ColumnSpan="2" BackgroundColor="PowderBlue"
+            Text="Heading"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            FontSize="40"/>
+        
+        <Frame CornerRadius="15"
+               Grid.Column="0" Grid.Row="1"
+               Grid.ColumnSpan="1" BackgroundColor="White"
+               Padding="0"
+               HasShadow="True">
+            <ImageButton
+                Source="tshirt1"
+                BackgroundColor="Transparent">
+
+            </ImageButton>
+        </Frame>
+        
+        <Label 
+            Padding="20"
+            FontSize="30"
+            VerticalOptions="CenterAndExpand"
+            Grid.Column="1" Grid.Row="1"
+            Text="Shirts"/>
+        
+        <Frame CornerRadius="15"
+               Grid.Column="0" Grid.Row="2"
+               Grid.ColumnSpan="1" BackgroundColor="White"
+               Padding="0"
+               HasShadow="True">
+            <ImageButton
+                Source="hoodie1"
+                BackgroundColor="Transparent">
+
+            </ImageButton>
+        </Frame>
+        
+        <Label 
+            Padding="20"
+            FontSize="30"
+            VerticalOptions="CenterAndExpand"
+            Grid.Column="1" Grid.Row="2"
+            Text="Hoodies"/>
+
+        <Frame CornerRadius="15"
+               Grid.Column="0" Grid.Row="3"
+               Grid.ColumnSpan="1" BackgroundColor="White"
+               Padding="0"
+               HasShadow="True">
+            <ImageButton
+                Source="cap1"
+                BackgroundColor="Transparent">
+
+            </ImageButton>
+        </Frame>
+
+        <Label 
+            Padding="20"
+            FontSize="30"
+            VerticalOptions="CenterAndExpand"
+            Grid.Column="1" Grid.Row="3"
+            Text="Caps"/>
     </Grid>
 
 </ContentPage>

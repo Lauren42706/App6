@@ -635,3 +635,16 @@ C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\website2.png
 C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\website3.png
 C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\website4.png
 C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\website5.png
+C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\tshirt2.jpg
+C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\tshirt3.jpg
+C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\tshirt4.jpg
+C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\tshirt1.png
+C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\tshirt2.png
+C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\tshirt3.png
+C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\cap1.png
+C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\cap2.png
+C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\cap3.png
+C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\hoodie1.png
+C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\pin1.png
+C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\pin2.png
+C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\pin3.png

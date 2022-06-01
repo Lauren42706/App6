@@ -5,6 +5,6 @@
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
     <ActiveDebugProfile>pixel_5_-_api_31</ActiveDebugProfile>
     <DefaultDevice>pixel_5_-_api_31</DefaultDevice>
-    <AndroidDesignerPreferredTheme>MyTheme</AndroidDesignerPreferredTheme>
+    <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>
