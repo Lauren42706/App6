@@ -33,7 +33,8 @@
                HasShadow="True">
             <ImageButton
                 Source="tshirt1"
-                BackgroundColor="Transparent">
+                BackgroundColor="Transparent"
+                Clicked="TShirt_Clicked">
 
             </ImageButton>
         </Frame>
@@ -52,7 +53,8 @@
                HasShadow="True">
             <ImageButton
                 Source="hoodie1"
-                BackgroundColor="Transparent">
+                BackgroundColor="Transparent"
+                Clicked="Hoodie_Clicked">
 
             </ImageButton>
         </Frame>
@@ -71,7 +73,8 @@
                HasShadow="True">
             <ImageButton
                 Source="cap1"
-                BackgroundColor="Transparent">
+                BackgroundColor="Transparent"
+                Clicked="Cap_Clicked">
 
             </ImageButton>
         </Frame>
@@ -82,6 +85,26 @@
             VerticalOptions="CenterAndExpand"
             Grid.Column="1" Grid.Row="3"
             Text="Caps"/>
+
+        <Frame CornerRadius="15"
+               Grid.Column="0" Grid.Row="4"
+               Grid.ColumnSpan="1" BackgroundColor="White"
+               Padding="0"
+               HasShadow="True">
+            <ImageButton
+                Source="pin1"
+                BackgroundColor="Transparent"
+                Clicked="Pin_Clicked">
+
+            </ImageButton>
+        </Frame>
+
+        <Label 
+            Padding="20"
+            FontSize="30"
+            VerticalOptions="CenterAndExpand"
+            Grid.Column="1" Grid.Row="4"
+            Text="Pins"/>
     </Grid>
 
 </ContentPage>

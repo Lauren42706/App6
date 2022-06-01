@@ -14,5 +14,25 @@ namespace App6
         {
             InitializeComponent();
         }
+
+        private async void TShirt_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TShirt());
+        }
+
+        private async void Hoodie_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Hoodie());
+        }
+
+        private async void Cap_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CapPage());
+        }
+
+        private async void Pin_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Pins());
+        }
     }
 }
