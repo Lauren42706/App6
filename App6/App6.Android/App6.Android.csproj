@@ -122,9 +122,6 @@
     <AndroidResource Include="Resources\drawable\tshirt2.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\tshirt3.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\tshirt3.png" />
   </ItemGroup>
   <ItemGroup>
