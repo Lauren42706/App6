@@ -15,5 +15,6 @@ namespace App6.Models
         public string Colour { get; set; }
         public string Address { get; set; }
         public string Image { get; set; }
+        public double Price { get; set; }
     }
 }

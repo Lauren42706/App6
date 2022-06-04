@@ -1,7 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App6.TShirt">
+             x:Class="App6.TShirt"
+             xmlns:local="clr-namespace:App6" 
+             xmlns:local1="clr-namespace:App6.Models"
+             BackgroundColor="MediumPurple"
+             Title="T-Shirt List">
 
-    
+    <ListView HasUnevenRows="True" 
+              SeparatorVisibility="None"
+             
+              ItemTapped="ListView_ItemTapped"
+              SelectionMode="None">
+        <ListView.ItemsSource>
+            <x:Array Type="{x:Type local1:Clothes}">
+                <local1:Clothes Name="Semi-Colon T-Shirt" Colour="Black" Image="tshirt1.png"
+                                       Size="S/M/L/XL" Price="199.99"/>
+                <local1:Clothes Name="SQL T-Shirt" Colour="Yellow" Image="tshirt2.png"
+                                       Size="S/M/L/XL" Price="259.99"/>
+                <local1:Clothes Name="T-Tex Run T-Shirt" Colour="Yellow" Image="tshirt3.png"
+                                       Size="S/M/L/XL" Price="269.99"/>
+                <local1:Clothes Name="Git Commit T-Shirt" Colour="Yellow" Image="tshirt4.jpg"
+                                       Size="S/M/L/XL" Price="229.99"/>
+            </x:Array>
+        </ListView.ItemsSource>
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid Padding="5">
+                        <Frame CornerRadius="10">
+                            <StackLayout Padding="5, 2"
+                                         Orientation="Horizontal">
+                                <!-- trying to pass to next page data binding-->
+                                <Image
+                                    Source="{Binding Image}"
+                                    WidthRequest="200"/>
+                                <StackLayout VerticalOptions="Center"
+                                             Spacing="10">
+                                    <Label
+                                        FontAttributes="Bold" 
+                                        FontSize="20"
+                                        Text="{Binding Name}"/>
+                                    <Label 
+                                        FontSize="18"
+                                        Text="{Binding Size}"/>
+                                    <Label 
+                                        FontSize="18"
+                                        Text="{Binding Price}"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
 </ContentPage>

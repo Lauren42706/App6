@@ -2,32 +2,35 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App6.MainPage"
-             BackgroundColor="Bisque">
+             BackgroundColor="MediumPurple"
+             Title="Welcome to .Net Swag">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="CartItems">
+            <ToolbarItem.IconImageSource>
+                <OnPlatform x:TypeArguments="ImageSource">
+                    <On Platform="Android, UWP"
+                        Value="cart.png" />
+                </OnPlatform>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
 
-    <Grid>
+    <Grid
+        Padding="5">
         <Grid.RowDefinitions>
-            <RowDefinition Height=".5*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Label 
-            Grid.Column="0" Grid.Row="0"
-            Grid.ColumnSpan="2" BackgroundColor="PowderBlue"
-            Text="Heading"
-            HorizontalTextAlignment="Center"
-            VerticalTextAlignment="Center"
-            FontSize="40"/>
-        
-        <Frame CornerRadius="15"
-               Grid.Column="0" Grid.Row="1"
+            <Frame CornerRadius="15"
+               Grid.Column="0" Grid.Row="0"
                Grid.ColumnSpan="1" BackgroundColor="White"
                Padding="0"
                HasShadow="True">
@@ -43,11 +46,11 @@
             Padding="20"
             FontSize="30"
             VerticalOptions="CenterAndExpand"
-            Grid.Column="1" Grid.Row="1"
+            Grid.Column="1" Grid.Row="0"
             Text="Shirts"/>
         
         <Frame CornerRadius="15"
-               Grid.Column="0" Grid.Row="2"
+               Grid.Column="0" Grid.Row="1"
                Grid.ColumnSpan="1" BackgroundColor="White"
                Padding="0"
                HasShadow="True">
@@ -63,11 +66,11 @@
             Padding="20"
             FontSize="30"
             VerticalOptions="CenterAndExpand"
-            Grid.Column="1" Grid.Row="2"
+            Grid.Column="1" Grid.Row="1"
             Text="Hoodies"/>
 
         <Frame CornerRadius="15"
-               Grid.Column="0" Grid.Row="3"
+               Grid.Column="0" Grid.Row="2"
                Grid.ColumnSpan="1" BackgroundColor="White"
                Padding="0"
                HasShadow="True">
@@ -83,11 +86,11 @@
             Padding="20"
             FontSize="30"
             VerticalOptions="CenterAndExpand"
-            Grid.Column="1" Grid.Row="3"
+            Grid.Column="1" Grid.Row="2"
             Text="Caps"/>
 
         <Frame CornerRadius="15"
-               Grid.Column="0" Grid.Row="4"
+               Grid.Column="0" Grid.Row="3"
                Grid.ColumnSpan="1" BackgroundColor="White"
                Padding="0"
                HasShadow="True">
@@ -103,7 +106,7 @@
             Padding="20"
             FontSize="30"
             VerticalOptions="CenterAndExpand"
-            Grid.Column="1" Grid.Row="4"
+            Grid.Column="1" Grid.Row="3"
             Text="Pins"/>
     </Grid>
 

@@ -1,7 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App6.TShirtItemPage">
+             x:Class="App6.TShirtItemPage"
+             xmlns:local="clr-namespace:App6"
+             xmlns:local1="clr-namespace:App6.Models"
+             BackgroundColor="MediumPurple"
+             Title="{Binding NewTShirt.Name}">
 
-    
+    <StackLayout >
+
+        <!--<Label Text="{Binding Pokedex.Pokemon}" FontSize="Large"/>-->
+        <Frame 
+            Margin="20"
+            CornerRadius="20">
+
+            <Image
+            Margin="20"
+            Source="{Binding NewTShirt.Image}"
+            WidthRequest="300"
+            />
+        </Frame>
+
+        <Label 
+            Margin="25, 0"
+            FontSize="30"
+            Text="{Binding NewTShirt.Colour}"
+            />
+
+        <Label
+            Margin="25, 0"
+            FontSize="15"
+            Text="{Binding NewTShirt.Size}"
+            />
+
+        <Button
+            Text="Add To Cart"
+            />
+
+    </StackLayout>
+
 </ContentPage>

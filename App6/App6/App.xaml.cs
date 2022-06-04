@@ -10,7 +10,11 @@ namespace App6
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new MainPage())
+            {
+                BarTextColor = Color.White,
+                BarBackgroundColor = (Color)App.Current.Resources["DarkPurple"]
+            };
         }
 
         protected override void OnStart()

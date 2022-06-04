@@ -5,7 +5,7 @@ using System.Text;
 using SQLite;
 using App6.Models;
 
-namespace App6
+namespace App6.Data
 {
     public class ClothesDatabase
     {

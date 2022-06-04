@@ -13,10 +13,21 @@ namespace App6
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class TShirtItemPage : ContentPage
     {
+        private Clothes _tShirt;
 
-        public TShirtItemPage()
+        public Clothes NewTShirt
         {
+            get { return _tShirt; }
+            set { _tShirt = value; }
+        }
+
+        public TShirtItemPage(Clothes newTshirt)
+        {
+            _tShirt = newTshirt;
+
             InitializeComponent();
+
+            BindingContext = this;
         }
     }
 }
