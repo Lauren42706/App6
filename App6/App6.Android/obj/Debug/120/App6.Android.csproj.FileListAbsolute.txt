@@ -656,3 +656,4 @@ C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\android\assets\System.Buffers.dl
 C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\android\assets\System.Memory.dll
 C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\android\assets\System.Runtime.CompilerServices.Unsafe.dll
 C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\cart.png
+C:\Xamarin\App6\App6\App6.Android\obj\Debug\120\res\drawable\tick.png

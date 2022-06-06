@@ -29,5 +29,15 @@ namespace App6
 
             BindingContext = this;
         }
+
+        async void Add(object sender, EventArgs e)
+        {
+                await Navigation.PushAsync(new AddToCart
+                {
+                    BindingContext = new Clothes()
+                });
+        }
+
+
     }
 }

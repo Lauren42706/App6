@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App6"
+             xmlns:local1="clr-namespace:App6.Models"
+             x:Class="App6.AddToCart"
+             Title="Details"
+             BackgroundColor="MediumPurple"
+             x:DataType="local:TShirtItemPage">
+    
+    <StackLayout Margin="20"
+                 VerticalOptions="StartAndExpand">
+        <Label FontAttributes="Bold" Text="Name"/>
+        <Entry/>
+        <Label FontAttributes="Bold" Text="Size"/>
+        <StackLayout 
+            Orientation="Horizontal">
+            <Label Text="S" Padding="0, 3, 0, 5"/>
+            <CheckBox/>
+            <Label Text="M" Padding="0, 3, 0, 5"/>
+            <CheckBox/>
+            <Label Text="L" Padding="0, 3, 0, 5"/>
+            <CheckBox/>
+            <Label Text="XL" Padding="0, 3, 0, 5"/>
+            <CheckBox/>
+        </StackLayout>
+        <Label FontAttributes="Bold" Text="Gender"/>
+        <StackLayout
+            Orientation="Horizontal">
+            <Label Text="Male" Padding="0, 3, 0, 5"/>
+            <CheckBox />
+            <Label Text="Female" Padding="0, 3, 0, 5"/>
+            <CheckBox />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Colour" FontAttributes="Bold"/>
+            <Label/>
+        </StackLayout>
+        <DatePicker/>
+        <Label FontAttributes="Bold" Text="Address" />
+        <Entry/>
+        <Button Text="Save"
+                Clicked="Save_Clicked"/>
+        <Button Text="Delete"
+                Clicked="Delete_Clicked"/>
+        <Button Text="Cancel"
+                Clicked="Cancel_Clicked"/>
+    </StackLayout>
+</ContentPage>

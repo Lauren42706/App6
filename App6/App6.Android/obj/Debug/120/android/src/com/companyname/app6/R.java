@@ -9923,17 +9923,18 @@ public final class R {
     public static final int preference_list_divider_material=0x7f070094;
     public static final int splash_screen=0x7f070095;
     public static final int test_custom_background=0x7f070096;
-    public static final int tooltip_frame_dark=0x7f070097;
-    public static final int tooltip_frame_light=0x7f070098;
-    public static final int tshirt1=0x7f070099;
-    public static final int tshirt2=0x7f07009a;
-    public static final int tshirt3=0x7f07009b;
-    public static final int tshirt4=0x7f07009c;
-    public static final int website=0x7f07009d;
-    public static final int website2=0x7f07009e;
-    public static final int website3=0x7f07009f;
-    public static final int website4=0x7f0700a0;
-    public static final int website5=0x7f0700a1;
+    public static final int tick=0x7f070097;
+    public static final int tooltip_frame_dark=0x7f070098;
+    public static final int tooltip_frame_light=0x7f070099;
+    public static final int tshirt1=0x7f07009a;
+    public static final int tshirt2=0x7f07009b;
+    public static final int tshirt3=0x7f07009c;
+    public static final int tshirt4=0x7f07009d;
+    public static final int website=0x7f07009e;
+    public static final int website2=0x7f07009f;
+    public static final int website3=0x7f0700a0;
+    public static final int website4=0x7f0700a1;
+    public static final int website5=0x7f0700a2;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

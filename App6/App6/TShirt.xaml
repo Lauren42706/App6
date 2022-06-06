@@ -14,13 +14,14 @@
               SelectionMode="None">
         <ListView.ItemsSource>
             <x:Array Type="{x:Type local1:Clothes}">
-                <local1:Clothes Name="Semi-Colon T-Shirt" Colour="Black" Image="tshirt1.png"
-                                       Size="S/M/L/XL" Price="199.99"/>
-                <local1:Clothes Name="SQL T-Shirt" Colour="Yellow" Image="tshirt2.png"
+                <local1:Clothes Colour="Black" Image="tshirt1.png"
+                                       Size="S/M/L/XL" Price="199.99"
+                                Name="asdfasdf"/>
+                <local1:Clothes Colour="Yellow" Image="tshirt2.png"
                                        Size="S/M/L/XL" Price="259.99"/>
-                <local1:Clothes Name="T-Tex Run T-Shirt" Colour="Yellow" Image="tshirt3.png"
+                <local1:Clothes Colour="Blue" Image="tshirt3.png"
                                        Size="S/M/L/XL" Price="269.99"/>
-                <local1:Clothes Name="Git Commit T-Shirt" Colour="Yellow" Image="tshirt4.jpg"
+                <local1:Clothes Colour="Green" Image="tshirt4.jpg"
                                        Size="S/M/L/XL" Price="229.99"/>
             </x:Array>
         </ListView.ItemsSource>

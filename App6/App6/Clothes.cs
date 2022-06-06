@@ -8,6 +8,7 @@ namespace App6.Models
     public class Clothes
     {
         [PrimaryKey, AutoIncrement]
+        public int ID { get; set; }
         public string Name { get; set; }
         public Gender GStyle { get; set; }
         public string Size { get; set; }
@@ -16,5 +17,6 @@ namespace App6.Models
         public string Address { get; set; }
         public string Image { get; set; }
         public double Price { get; set; }
+        public bool Done { get; set; }
     }
 }

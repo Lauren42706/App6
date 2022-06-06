@@ -4,12 +4,11 @@
              x:Class="App6.TShirtItemPage"
              xmlns:local="clr-namespace:App6"
              xmlns:local1="clr-namespace:App6.Models"
+             x:DataType="local:TShirtItemPage" 
              BackgroundColor="MediumPurple"
-             Title="{Binding NewTShirt.Name}">
+             Title="Want To Buy?">
 
     <StackLayout >
-
-        <!--<Label Text="{Binding Pokedex.Pokemon}" FontSize="Large"/>-->
         <Frame 
             Margin="20"
             CornerRadius="20">
@@ -34,6 +33,7 @@
             />
 
         <Button
+            Clicked="Add"
             Text="Add To Cart"
             />
 

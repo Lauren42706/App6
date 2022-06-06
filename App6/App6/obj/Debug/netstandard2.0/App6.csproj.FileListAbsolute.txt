@@ -19,3 +19,4 @@ C:\Xamarin\App6\App6\App6\obj\Debug\netstandard2.0\TShirt.xaml.g.cs
 C:\Xamarin\App6\App6\App6\obj\Debug\netstandard2.0\CapPage.xaml.g.cs
 C:\Xamarin\App6\App6\App6\obj\Debug\netstandard2.0\TShirtItemPage.xaml.g.cs
 C:\Xamarin\App6\App6\App6\obj\Debug\netstandard2.0\CartPage.xaml.g.cs
+C:\Xamarin\App6\App6\App6\obj\Debug\netstandard2.0\AddToCart.xaml.g.cs
